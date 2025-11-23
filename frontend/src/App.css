@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  background-color: #f4f5f8;
+  color: #333;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  /* Soft blue gradient */
+  /* OR a more vibrant one if requested, but let's start clean */
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png"), linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  background-blend-mode: overlay;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.281);
+}
+
+/* Utility Classes */
+.d-flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.h-100 {
+  height: 100%;
+}

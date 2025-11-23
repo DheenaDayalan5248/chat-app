@@ -1,0 +1,26 @@
+.chat-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    background: white;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+@media (min-width: 768px) {
+    .chat-box {
+        width: 68%;
+    }
+}
+
+.hidden-on-mobile {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .hidden-on-mobile {
+        display: flex;
+    }
+}
